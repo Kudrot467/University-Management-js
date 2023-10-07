@@ -3,42 +3,42 @@
       "id": 1,
       "name": "Introduction to Web Development",
       "description": "Learn the fundamentals of web development, including HTML, CSS, and JavaScript.",
-      "pic": "web_development.jpg",
+      "pic": "https://i.ibb.co/XJN5Ypv/Artificial-Intelligence-5.jpg",
       "price": 49.99
     },
     {
       "id": 2,
       "name": "Data Science Foundations",
       "description": "Explore the world of data science, machine learning, and data analysis techniques.",
-      "pic": "data_science.jpg",
+      "pic": "https://i.ibb.co/SyPMnMP/download.png",
       "price": 59.99
     },
     {
       "id": 3,
       "name": "Mobile App Development with React Native",
       "description": "Build cross-platform mobile apps using React Native and enhance your mobile development skills.",
-      "pic": "react_native.jpg",
+      "pic": "https://i.ibb.co/3pYYhdz/download.jpg",
       "price": 69.99
     },
     {
       "id": 4,
       "name": "UI/UX Design Principles",
       "description": "Master the principles of user interface and user experience design to create captivating digital experiences.",
-      "pic": "ui_ux_design.jpg",
+      "pic": "https://i.ibb.co/2FcFTjH/images.png",
       "price": 54.99
     },
     {
       "id": 5,
       "name": "Artificial Intelligence Basics",
       "description": "Delve into the basics of artificial intelligence, neural networks, and AI applications.",
-      "pic": "ai_basics.jpg",
+      "pic": "https://i.ibb.co/C2dckRj/619518f59591bd962396074d-Content-Images-Which-AI-Is-Learn-by-Its-Own-2.jpg",
       "price": 64.99
     },
     {
       "id": 6,
       "name": "Cybersecurity Fundamentals",
       "description": "Learn essential concepts of cybersecurity, including network security, encryption, and ethical hacking.",
-      "pic": "cybersecurity.jpg",
+      "pic": "https://i.ibb.co/6gRqSGD/assets-everspringpartners.jpg",
       "price": 59.99
     }
   ]

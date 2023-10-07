@@ -1,8 +1,11 @@
 import { Link } from "react-router-dom";
 import { FaUser, FaRegAddressBook } from "react-icons/fa";
 import Navbar from "../Navbar/Navbar";
+import { useContext } from "react";
+import { AuthContext } from "../../providers/AuthProvider";
 
 const Header = () => {
+    const{user}=useContext(AuthContext);
   return (
     <div>
       <div className="mx-auto flex justify-between p-4 items-center flex-col md:flex-row">
