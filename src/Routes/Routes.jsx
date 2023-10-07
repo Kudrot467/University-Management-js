@@ -6,6 +6,7 @@ import Login from "../Components/Login/Login";
 import About from "../Components/About/About";
 import Academics from "../Components/Academics/Academics";
 import Admission from "../Components/Admission/Admission";
+import Apply from "../Components/Apply/Apply";
 
 const router=createBrowserRouter([
     {
@@ -36,6 +37,10 @@ const router=createBrowserRouter([
         {
             path:'/admission',
             element:<Admission></Admission>
+        },
+        {
+            path:'/apply',
+            element:<Apply></Apply>
         }
       ]
     },

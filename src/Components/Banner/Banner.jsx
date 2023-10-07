@@ -30,7 +30,7 @@ const Banner = () => {
     {images.map((imageUrl, index) => (
         <Slide
           key={index}
-          className='bg-cover bg-no-repeat'
+          className="bg-cover bg-no-repeat"
           style={{
             backgroundImage: `url(${imageUrl})`
           }}
