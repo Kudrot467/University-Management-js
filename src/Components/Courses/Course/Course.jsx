@@ -1,15 +1,20 @@
 import PropTypes from "prop-types";
-import { useContext } from "react";
+import { useContext, useEffect } from "react";
 import { FaDollarSign } from "react-icons/fa";
 import { AuthContext } from "../../../providers/AuthProvider";
 import { Link } from "react-router-dom";
+import Aos from "aos";
+import 'aos/dist/aos.css'
 const Course = ({ course }) => {
     const{user}=useContext(AuthContext);
   const { name, pic, description, price,id } = course;
+  useEffect(()=>{
+    Aos.init();
+  },[])
 
   return (
     <div>
-      <div className="card lg:card-side bg-base-100 shadow-xl">
+      <div className="card lg:card-side bg-base-100 shadow-xl" data-aos="fade-right">
         <figure>
           <img
             className=" w-full md:w-[550px] h-[300px]"
