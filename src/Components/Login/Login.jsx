@@ -3,13 +3,18 @@ import { Link, useLocation, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../providers/AuthProvider";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import { FaGoogle } from "react-icons/fa";
 
 const Login = () => {
-  const { signIn } = useContext(AuthContext);
+  const { signIn, googleSignIn } = useContext(AuthContext);
   const [logError, setLogError] = useState("");
   const [success, setSuccess] = useState("");
-  const location=useLocation();
-  const navigate=useNavigate();
+  const location = useLocation();
+  const navigate = useNavigate();
+
+  const handleGoogleLog = () => {
+    googleSignIn().then().catch();
+  };
 
   const handleLogin = (e) => {
     e.preventDefault();
@@ -20,7 +25,7 @@ const Login = () => {
       .then((result) => {
         console.log(result.user);
 
-        navigate(location?.state ? location.state : '/');
+        navigate(location?.state ? location.state : "/");
         setSuccess(
           toast("login successful", {
             position: toast.POSITION.TOP_CENTER,
@@ -98,6 +103,12 @@ const Login = () => {
               Register
             </Link>
           </p>
+          <div className="flex items-center justify-center my-6">
+            <button onClick={handleGoogleLog} className="btn  text-[#00BFFF]">
+              <FaGoogle></FaGoogle>Continue with Google
+            </button>
+          </div>
+
           <div>
             {logError && (
               <p className="text-xl font-medium text-red-700 text-center">

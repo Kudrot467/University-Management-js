@@ -1,11 +1,17 @@
 import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
+import Aos from "aos";
+import 'aos/dist/aos.css';
+import { useEffect } from "react";
 
 const Events = ({ event }) => {
   const { name, description, pic, id } = event;
+  useEffect(()=>{
+    Aos.init();
+  },[])
   return (
    <div>
-        <div className="card glass">
+        <div className="card glass" data-aos="fade-right">
       <figure>
         <img className="w-full md:w-[550px] h-[250px]" src={pic} />
       </figure>
@@ -17,7 +23,7 @@ const Events = ({ event }) => {
               {description.slice(0, 150)}{" "}
               <Link to={`/events/${id}`}>
                 <div className="card-actions justify-end">
-                  <button className="btn">See More!</button>
+                  <button className="btn text-[#4E9BD8] hover:text-white hover:bg-[#4E9BD8]">See More!</button>
                 </div>
               </Link>{" "}
             </p>

@@ -15,7 +15,7 @@ const EventDetail = ({ detail }) => {
           <p className="py-6">
             {description}
           </p>
-          <Link to="/"><button className="btn">Back to Home</button></Link>
+          <Link to="/"><button className="btn hover:text-[#4E9BD8]">Back to Home</button></Link>
         </div>
       </div>
     </div>
