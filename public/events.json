@@ -1,32 +1,38 @@
  [
     {
-      "name": "Parent-Teacher Meetings",
-      "description": "Parent-Teacher Meetings (PTMs) are crucial gatherings held at regular intervals during the academic year, providing an invaluable platform for constructive communication and collaboration between parents or guardians and teachers. These meetings offer a comprehensive understanding of the academic progress, behavioral aspects, and overall development of each student. Parents can gain insights into their child's strengths, areas for improvement, and social interactions within the school environment. In turn, teachers can share observations, tailored strategies, and recommendations to support each student's learning journey. The collaborative nature of PTMs encourages a strong partnership between the home and school, fostering an environment of shared responsibility for the educational success and well-being of the students.",
-      "pic": "parent_teacher_meeting.jpg"
+      "id":1,
+      "name": "Webinar on “Securing the Bits and Bytes: Navigating through Classical and Modern Measures of Digital Security",
+      "description": "On Saturday, 16th September 2023, IEEE Learning Academy Student Branch, in collaboration with the IEEE Computer Society Learning Academy SB Chapter, successfully hosted a webinar titled “Securing the Bits and Bytes: Navigating through Classical and Modern Measures of Digital Security”. The event was held with the purpose of providing some context on cryptography and computer security and developing its knowledge among the participants. It highlighted the significance and the need for cryptography and computer security in the modern era. The session also emphasized the importance of advancements in digital security technologies and infrastructure, ultimately in alignment with SDG 9 (industry, innovation, and infrastructure). The webinar was inaugurated by Dr. Shameem Ahmad, Assistant Professor, Faculty of Engineering, Department of EEE,Learning Academy; Counselor, IEEE Learning AcademyStudent Branch. During his speech he briefly talked about cyber security and then welcomed the speaker. After this Ms. Cybele Ghanem, Implementation and Support Engineer, INVIGO OFFSHORE; Chair, IEEE DAY 2023; Social Media Lead, IEEE XTREME 17.0 took the floor as the speaker of the session. Initially, she began the session by delivering a clear and concise introduction about herself and the topic she would be discussing.",
+      "pic": "https://i.ibb.co/Y2sgGjK/sbbaiub2302.jpg"
     },
     {
-      "name": "Annual School Sports Day",
-      "description": "The Annual School Sports Day is a vibrant and much-anticipated event that takes place once a year, showcasing the physical prowess, sportsmanship, and competitive spirit of students. It encompasses a wide array of athletic activities and sports, ranging from track and field events to team sports like football, basketball, and relay races. The Sports Day not only promotes physical fitness and healthy competition but also cultivates essential values such as discipline, teamwork, and determination among students. It celebrates the achievements of young athletes, encourages active participation, and instills a love for sports and physical activities, fostering a culture of wellness and a balanced approach to life.",
-      "pic": "school_sports_day.jpg"
+      "id":2,
+      "name": "Webinar On “Reliability and Safety Risk For The Ai Hardware In The Perspective Of The Future Metaverse”",
+      "description": "On Saturday, September 9, 2023, the IEEE Learning Academy Student Branch in collaboration with the Faculty of Engineering (FE), American International University-Bangladesh (Learning Academy) successfully organized a webinar titled . The webinar was held with the purpose of providing an informative session for individuals who are passionate about AI and metaverse applications. It highlighted the integration in the future metaverse, the reliability, and the safety of its implementing hardware with respect to faults and aging conditions possibly occurring during its operation in the field.Cecilia Metra, Professor, PhD, Eng, IEEE Fellow; 2022-2023 IEEE Director/Division V Delegate; President, IEEE Computer Society 2019; DEI - ARCES, University of Bologna, Italy conducted the session. Her session focused on the intricacies of financial investments within the metaverse, emphasizing the critical aspects of reliability and safety. This was accomplished through an exploration of the definition of artificial intelligence (AI) and a comprehensive discussion of the methodologies employed to ensure memory reliability, particularly in the context of System Entities.",
+      "pic": "https://i.ibb.co/tXpLm1J/1-cover.jpg"
     },
     {
+      "id":3,
       "name": "Science Fair and Exhibition",
       "description": "The Science Fair and Exhibition is a captivating event that provides a platform for students to showcase their scientific ingenuity, creativity, and investigative skills. It encompasses a diverse array of scientific projects, experiments, models, and innovative ideas across various branches of science. Students often work diligently to present their research findings, hypotheses, and conclusions to a wider audience. The Science Fair encourages a hands-on approach to learning, stimulates curiosity, and promotes critical thinking and problem-solving abilities. Moreover, it fosters a culture of inquiry and experimentation, empowering students to explore the fascinating world of science and technology.",
-      "pic": "science_fair.jpg"
+      "pic": "https://i.ibb.co/ZKkFyfk/science-fair-fails.jpg"
     },
     {
+      "id":4,
       "name": "Cultural Fest and Talent Show",
       "description": "The Cultural Fest and Talent Show is a vibrant and culturally enriching event that celebrates the diverse talents, creativity, and cultural heritage of students. It provides a platform for students to showcase their talents in various domains, including music, dance, drama, poetry, and fine arts. The fest often incorporates performances that depict different cultures, traditions, and artistic expressions, fostering an environment of inclusivity and appreciation for diversity. Additionally, the Talent Show allows students to express themselves, build self-confidence, and embrace their unique abilities. It nurtures creativity, teamwork, and collaboration while promoting a sense of unity and cultural understanding within the school community.",
-      "pic": "cultural_fest.jpg"
+      "pic": "https://i.ibb.co/C2FywTG/images.jpg"
     },
     {
+      "id":5,
       "name": "Career Guidance and Counseling Sessions",
       "description": "Career Guidance and Counseling Sessions are informative and interactive events designed to provide students with insights into potential career pathways, educational opportunities, and the skills required to succeed in their chosen fields. Professionals from various industries, career counselors, and alumni often participate to share their experiences, expertise, and knowledge about different career options. These sessions empower students to make well-informed decisions regarding their academic pursuits and future careers. Students can explore diverse career prospects, ask questions, and seek guidance to align their interests, skills, and aspirations with suitable career choices, ultimately inspiring and motivating them to work towards their goals.",
-      "pic": "career_guidance.jpg"
+      "pic": "https://i.ibb.co/KxXBDb6/dwn.jpg"
     },
     {
+      "id":6,
       "name": "Community Outreach and Social Service Events",
       "description": "Community Outreach and Social Service Events are meaningful engagements where students actively contribute to the welfare of the community and society at large. Activities may include volunteering at local organizations, conducting awareness campaigns on social issues, participating in environmental cleanup drives, and supporting underprivileged communities. These events instill a sense of social responsibility, empathy, and compassion in students, fostering a deeper understanding of societal challenges and encouraging a proactive approach to address them. Students learn valuable life skills, teamwork, and leadership qualities while experiencing the gratification that comes from making a positive difference in the lives of others. This cultivates a culture of altruism, kindness, and giving back to the community within the school environment.",
-      "pic": "community_outreach.jpg"
+      "pic": "https://i.ibb.co/Zmcdmy7/download.jpg"
     }
 ]

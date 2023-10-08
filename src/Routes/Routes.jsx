@@ -10,6 +10,7 @@ import Apply from "../Components/Apply/Apply";
 import Courses from "../Components/Courses/Courses";
 import Blogs from "../Components/Blogs/Blogs";
 import PrivateRoute from "./PrivateRoutes/PrivateRoute";
+import EventDetails from "../Components/EventDetails/EventDetails";
 
 const router=createBrowserRouter([
     {
@@ -19,7 +20,12 @@ const router=createBrowserRouter([
         {
             path:'/',
             element:<Home></Home>,
-            loader:() => fetch('/courses.json')
+            loader:() => fetch('/events.json')
+        },
+        {
+            path:'/events/:id',
+            element:<PrivateRoute><EventDetails></EventDetails></PrivateRoute>,
+            loader:() => fetch('/events.json')
         },
         {
             path:'/register',

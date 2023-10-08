@@ -1,18 +1,18 @@
 import { useLoaderData, useParams } from "react-router-dom";
-import Blog from "../Blog/Blog";
+import EventDetail from "./EventDetail";
 
-const Blogs = () => {
+
+const EventDetails = () => {
+   
     const data=useLoaderData();
-    const{ id }=useParams();
+    const{id}=useParams();
     const idInt=parseInt(id);
     const detail=data.find(detail=>detail.id===idInt);
-    
-
     return (
         <div>
-            <Blog key={detail.id} detail={detail}></Blog>
+            <EventDetail key={detail.id} detail={detail}></EventDetail>
         </div>
     );
 };
 
-export default Blogs;
+export default EventDetails;
