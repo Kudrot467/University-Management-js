@@ -30,33 +30,14 @@ const Banner = () => {
     {images.map((imageUrl, index) => (
         <Slide
           key={index}
-          className="bg-cover bg-no-repeat"
+          className=""
           style={{
-            backgroundImage: `url(${imageUrl})`
+            backgroundImage: `url(${imageUrl})`,
+            backgroundRepeat:'no-repeat',
+            backgroundSize:'100% 100%'
           }}
         />
       ))}
-    {/* <Slide
-        background={{
-                backgroundImage: slide2,
-                backgroundAttachment: "fixed"
-        }}
-    />
-    <Slide
-        background={{
-                backgroundImage: slide3,
-                backgroundAttachment: "fixed"
-        }}
-    />
-    <Slide
-        background={{
-                backgroundImage: slide4,
-                backgroundAttachment: "fixed"
-        }}
-    /> */}
-
-    
-
    </HeroSlider>
   );
 };

@@ -3,42 +3,135 @@
       "id": 1,
       "name": "Introduction to Web Development",
       "description": "Learn the fundamentals of web development, including HTML, CSS, and JavaScript.",
+
+      "faculty": {
+        "name": "Dr. Sarah Smith",
+        "designation": "Senior Web Developer",
+        "description": "Dr. Sarah Smith is an experienced web developer with over 10 years of industry experience. She specializes in teaching web development fundamentals to beginners.",
+        "pic": "faculty_sarah_smith.jpg"
+      },
+      "blogs":{
+        "title":"Getting Started with Web Development",
+        "content":" An introductory blog covering the basics of web development, including HTML, CSS, and JavaScript. It introduces users to the fundamental building blocks of the web and how they come together to create web pages and applications.",
+        "book": "HTML and CSS: Design and Build Websites by Jon Duckett",
+        "youTubeChannel": "Traversy Media",
+        "practicePlatform": "CodePen"
+      },
+
       "pic": "https://i.ibb.co/XJN5Ypv/Artificial-Intelligence-5.jpg",
-      "price": 49.99
+      "price": 5500
+      
     },
     {
       "id": 2,
       "name": "Data Science Foundations",
       "description": "Explore the world of data science, machine learning, and data analysis techniques.",
+
+      "faculty": {
+        "name": "Prof. John Davis",
+        "designation": "Data Science Expert",
+        "description": "Prof. John Davis is a renowned data scientist with extensive expertise in machine learning and data analysis. He's passionate about sharing his knowledge and experience with aspiring data scientists.",
+        "pic": "faculty_john_davis.jpg"
+      },
+      "blogs":{
+        "title":"Getting Started with Web Development",
+        "content":" An introductory blog covering the basics of web development, including HTML, CSS, and JavaScript. It introduces users to the fundamental building blocks of the web and how they come together to create web pages and applications.",
+        "book": "HTML and CSS: Design and Build Websites by Jon Duckett",
+        "youTubeChannel": "Traversy Media",
+        "practicePlatform": "CodePen"
+      }, 
       "pic": "https://i.ibb.co/SyPMnMP/download.png",
-      "price": 59.99
+      "price": 4550
     },
     {
       "id": 3,
       "name": "Mobile App Development with React Native",
       "description": "Build cross-platform mobile apps using React Native and enhance your mobile development skills.",
+
+      "faculty": {
+        "name": "Dr. Emily Johnson",
+        "designation": "Mobile App Developer",
+        "description": "Dr. Emily Johnson is a proficient mobile app developer with a focus on cross-platform development using React Native. She enjoys teaching the intricacies of mobile app development to students.",
+        "pic": "faculty_emily_johnson.jpg"
+      },
+
+      "blogs":{
+        "title":"Getting Started with Web Development",
+        "content":" An introductory blog covering the basics of web development, including HTML, CSS, and JavaScript. It introduces users to the fundamental building blocks of the web and how they come together to create web pages and applications.",
+        "book": "HTML and CSS: Design and Build Websites by Jon Duckett",
+        "youTubeChannel": "Traversy Media",
+        "practicePlatform": "CodePen"
+      },
+
       "pic": "https://i.ibb.co/3pYYhdz/download.jpg",
-      "price": 69.99
+      "price": 4850
     },
     {
       "id": 4,
       "name": "UI/UX Design Principles",
       "description": "Master the principles of user interface and user experience design to create captivating digital experiences.",
+
+      "faculty": {
+        "name": "Prof. Michael Brown",
+        "designation": "UI/UX Design Expert",
+        "description": "Prof. Michael Brown is a seasoned UI/UX designer with vast experience in creating intuitive and visually appealing designs. He is dedicated to teaching the art and science of UI/UX design to students.",
+        "pic": "faculty_michael_brown.jpg"
+      },
+      "blogs":{
+        "title":"Getting Started with Web Development",
+        "content":" An introductory blog covering the basics of web development, including HTML, CSS, and JavaScript. It introduces users to the fundamental building blocks of the web and how they come together to create web pages and applications.",
+        "book": "HTML and CSS: Design and Build Websites by Jon Duckett",
+        "youTubeChannel": "Traversy Media",
+        "practicePlatform": "CodePen"
+      },
+      
+
       "pic": "https://i.ibb.co/2FcFTjH/images.png",
-      "price": 54.99
+      "price": 4900
     },
     {
       "id": 5,
       "name": "Artificial Intelligence Basics",
       "description": "Delve into the basics of artificial intelligence, neural networks, and AI applications.",
+
+      "faculty": {
+        "name": "Dr. James Anderson",
+        "designation": "AI Specialist",
+        "description": "Dr. James Anderson is an expert in artificial intelligence and neural networks. He is passionate about educating students in the rapidly evolving field of AI and machine learning.",
+        "pic": "faculty_james_anderson.jpg"
+      },
+
+      "blogs":{
+        "title":"Getting Started with Web Development",
+        "content":" An introductory blog covering the basics of web development, including HTML, CSS, and JavaScript. It introduces users to the fundamental building blocks of the web and how they come together to create web pages and applications.",
+        "book": "HTML and CSS: Design and Build Websites by Jon Duckett",
+        "youTubeChannel": "Traversy Media",
+        "practicePlatform": "CodePen"
+      },
+
       "pic": "https://i.ibb.co/C2dckRj/619518f59591bd962396074d-Content-Images-Which-AI-Is-Learn-by-Its-Own-2.jpg",
-      "price": 64.99
+      "price": 4600
     },
     {
       "id": 6,
       "name": "Cybersecurity Fundamentals",
       "description": "Learn essential concepts of cybersecurity, including network security, encryption, and ethical hacking.",
+
+      "faculty": {
+        "name": "Prof. Laura Martinez",
+        "designation": "Cybersecurity Expert",
+        "description": "Prof. Laura Martinez is a cybersecurity expert with extensive knowledge in network security and ethical hacking. She is committed to educating individuals in the field of cybersecurity and ensuring a safer digital environment.",
+        "pic": "faculty_laura_martinez.jpg"
+      },
+      "blogs":{
+        "title":"Getting Started with Web Development",
+        "content":" An introductory blog covering the basics of web development, including HTML, CSS, and JavaScript. It introduces users to the fundamental building blocks of the web and how they come together to create web pages and applications.",
+        "book": "HTML and CSS: Design and Build Websites by Jon Duckett",
+        "youTubeChannel": "Traversy Media",
+        "practicePlatform": "CodePen"
+   },
+
       "pic": "https://i.ibb.co/6gRqSGD/assets-everspringpartners.jpg",
-      "price": 59.99
+      "price": 5300
     }
   ]
