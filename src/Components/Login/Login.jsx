@@ -3,12 +3,13 @@ import { Link, useLocation, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../providers/AuthProvider";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import { FaGoogle } from "react-icons/fa";
+import { FaGoogle, FaEye, FaEyeSlash } from "react-icons/fa";
 import { Helmet } from "react-helmet-async";
 
 const Login = () => {
   const { signIn, googleSignIn } = useContext(AuthContext);
   const [success, setSuccess] = useState("");
+  const [showPassword, setShowPassWord] = useState(false);
   const location = useLocation();
   const navigate = useNavigate();
 
@@ -35,7 +36,7 @@ const Login = () => {
       .catch((error) => {
         const errorMessage = error.message;
         console.log(errorMessage);
-       toast(`${errorMessage}`)
+        toast(`${errorMessage}`);
       });
   };
   return (
@@ -76,13 +77,18 @@ const Login = () => {
                   Password
                 </span>
               </label>
-              <input
-                type="password"
-                placeholder="password"
-                name="password"
-                className="input input-bordered border-[#48A5EE]"
-                required
-              />
+              <div className="relative">
+                <input 
+                  type={showPassword ? "text" : "password"}
+                  placeholder="password"
+                  name="password"
+                  className="input input-bordered w-full border-[#48A5EE]"
+                  required
+                />
+                <span className="absolute top-3 right-2" onClick={() => setShowPassWord(!showPassword)}>
+                  {showPassword ? <FaEyeSlash></FaEyeSlash> : <FaEye></FaEye>}
+                </span>
+              </div>
               <label className="label">
                 <a href="#" className="label-text-alt link link-hover">
                   Forgot password?
@@ -107,10 +113,7 @@ const Login = () => {
             </button>
           </div>
 
-          <div>
-           
-            {success && <ToastContainer></ToastContainer>}
-          </div>
+          <div>{success && <ToastContainer></ToastContainer>}</div>
         </div>
       </div>
     </div>
