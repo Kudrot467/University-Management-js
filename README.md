@@ -7,3 +7,4 @@
 **Password validation added**
 **Firebase hosting**
 **Error Page**
+[Live Site link](https://event-management-b51f5.web.app)
