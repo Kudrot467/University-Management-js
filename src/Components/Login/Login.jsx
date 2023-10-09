@@ -7,7 +7,6 @@ import { FaGoogle } from "react-icons/fa";
 
 const Login = () => {
   const { signIn, googleSignIn } = useContext(AuthContext);
-  const [logError, setLogError] = useState("");
   const [success, setSuccess] = useState("");
   const location = useLocation();
   const navigate = useNavigate();
@@ -33,15 +32,9 @@ const Login = () => {
         );
       })
       .catch((error) => {
-        const errorCode = error.message;
-        console.log(errorCode);
-        if (errorCode === "auth/invalid-password") {
-          setLogError("Password is incorrect.");
-          return;
-        } else if (errorCode === "auth/invalid-email") {
-          setLogError("User with this email does not exist.");
-          return;
-        }
+        const errorMessage = error.message;
+        console.log(errorMessage);
+       toast(`${errorMessage}`)
       });
   };
   return (
@@ -111,11 +104,7 @@ const Login = () => {
           </div>
 
           <div>
-            {logError && (
-              <p className="text-xl font-medium text-red-700 text-center">
-                {logError}
-              </p>
-            )}
+           
             {success && <ToastContainer></ToastContainer>}
           </div>
         </div>

@@ -13,6 +13,7 @@ import PrivateRoute from "./PrivateRoutes/PrivateRoute";
 import EventDetails from "../Components/EventDetails/EventDetails";
 import Regulations from "../Components/Regulations/Regulations";
 import ErrorPage from "../Components/ErrorPage/ErrorPage";
+import Contact from "../Components/Contact/Contact";
 
 const router=createBrowserRouter([
     {
@@ -41,6 +42,10 @@ const router=createBrowserRouter([
         {
             path:'/about',
             element:<About></About>
+        },
+        {
+            path:'/contact-us',
+            element:<Contact></Contact>
         },
         {
             path:'/academics',

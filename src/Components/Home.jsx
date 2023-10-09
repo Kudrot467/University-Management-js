@@ -5,6 +5,7 @@ import Aos from "aos";
 import 'aos/dist/aos.css';
 import { useEffect } from "react";
 import Testimonials from "./Testimonials/Testimonials";
+import Facts from "./Facts/Facts";
 const Home = () => {
   const eventsData = useLoaderData();
 
@@ -25,6 +26,9 @@ const Home = () => {
         <div className="my-10">
         <Testimonials></Testimonials>
       </div>
+      </div>
+      <div className="my-10">
+        <Facts></Facts>
       </div>
     </div>
   );
