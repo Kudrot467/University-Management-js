@@ -17,7 +17,7 @@ const Header = () => {
   return (
     <div>
       <div className="mx-auto flex justify-between p-4 items-center flex-col md:flex-row">
-        <a className="btn btn-ghost normal-case text-xl text-[#48A5EE]">
+        <a className="btn btn-ghost normal-case text-2xl text-[#48A5EE]">
           Learning Academy
         </a>
         <img

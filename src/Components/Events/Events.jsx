@@ -1,43 +1,45 @@
 import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
 import Aos from "aos";
-import 'aos/dist/aos.css';
+import "aos/dist/aos.css";
 import { useEffect } from "react";
 
 const Events = ({ event }) => {
   const { name, description, pic, id } = event;
-  useEffect(()=>{
+  useEffect(() => {
     Aos.init();
-  },[])
+  }, []);
   return (
-   <div>
-        <div className="card glass" data-aos="fade-right">
-      <figure>
-        <img className="w-full md:w-[550px] h-[250px]" src={pic} />
-      </figure>
-      <div className="card-body w-full">
-        <h2 className="card-title h-[90px]">{name}</h2>
-        <div>
-          {description.length > 150 ? (
-            <p className="">
-              {description.slice(0, 150)}{" "}
-              <Link to={`/events/${id}`}>
-                <div className="card-actions justify-end">
-                  <button className="btn text-[#4E9BD8] hover:text-white hover:bg-[#4E9BD8]">See More!</button>
-                </div>
-              </Link>{" "}
-            </p>
-          ) : (
-            <p>{description}</p>
-          )}
+    <div>
+      <div className="card glass" data-aos="fade-right">
+        <figure>
+          <img className="w-full md:w-[550px] h-[250px]" src={pic} />
+        </figure>
+        <div className="card-body w-full">
+          <h2 className="card-title h-[90px]">{name}</h2>
+          <div>
+            {description.length > 150 ? (
+              <p className="">
+                {description.slice(0, 150)}{" "}
+                <Link to={`/events/${id}`}>
+                  <div className="card-actions justify-end">
+                    <button className="btn text-[#4E9BD8] hover:text-white hover:bg-[#4E9BD8]">
+                      See More!
+                    </button>
+                  </div>
+                </Link>{" "}
+              </p>
+            ) : (
+              <p>{description}</p>
+            )}
+          </div>
         </div>
       </div>
     </div>
-   </div>
   );
 };
-Events.propTypes={
-    event:PropTypes.object
-}
+Events.propTypes = {
+  event: PropTypes.object,
+};
 
 export default Events;

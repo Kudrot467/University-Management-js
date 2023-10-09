@@ -31,7 +31,9 @@ const Course = ({ course }) => {
           </div>
           <div className="card-actions justify-end">
             {
-                user ? <Link to={`/course/${id}`}> <button className="btn hover:bg-[#48A5EE]">Start</button></Link> :  <button className="btn hover:bg-[#48A5EE]">Purchase</button>
+                user ? <Link to={`/course/${id}`}> <button className="btn hover:bg-[#48A5EE]">Get Started</button></Link> : <> <button className="btn hover:bg-[#48A5EE]">Purchase</button>
+                <button className="btn hover:bg-[#48A5EE]">Get Started</button>
+                </>
             }
            
           </div>

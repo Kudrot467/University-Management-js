@@ -8,7 +8,7 @@
         "name": "Dr. Sarah Smith",
         "designation": "Senior Web Developer",
         "description": "Dr. Sarah Smith is an experienced web developer with over 10 years of industry experience. She specializes in teaching web development fundamentals to beginners.",
-        "pic": "faculty_sarah_smith.jpg"
+        "pic": "https://i.ibb.co/PznmbZv/christina-wocintechchat-com-c-mg-Suxqpz-A-unsplash.jpg"
       },
       "blogs":{
         "title":"Getting Started with Web Development",
@@ -31,10 +31,10 @@
         "name": "Prof. John Davis",
         "designation": "Data Science Expert",
         "description": "Prof. John Davis is a renowned data scientist with extensive expertise in machine learning and data analysis. He's passionate about sharing his knowledge and experience with aspiring data scientists.",
-        "pic": "faculty_john_davis.jpg"
+        "pic": "https://i.ibb.co/wy7Pg17/download.jpg"
       },
       "blogs":{
-        "title":"Getting Started with Web Development",
+        "title":"Getting Started with Data Science",
         "content":" An introductory blog covering the basics of web development, including HTML, CSS, and JavaScript. It introduces users to the fundamental building blocks of the web and how they come together to create web pages and applications.",
         "book": "HTML and CSS: Design and Build Websites by Jon Duckett",
         "youTubeChannel": "Traversy Media",
@@ -52,7 +52,7 @@
         "name": "Dr. Emily Johnson",
         "designation": "Mobile App Developer",
         "description": "Dr. Emily Johnson is a proficient mobile app developer with a focus on cross-platform development using React Native. She enjoys teaching the intricacies of mobile app development to students.",
-        "pic": "faculty_emily_johnson.jpg"
+        "pic": "https://i.ibb.co/5KjKT2y/emily.jpg"
       },
 
       "blogs":{
@@ -75,7 +75,7 @@
         "name": "Prof. Michael Brown",
         "designation": "UI/UX Design Expert",
         "description": "Prof. Michael Brown is a seasoned UI/UX designer with vast experience in creating intuitive and visually appealing designs. He is dedicated to teaching the art and science of UI/UX design to students.",
-        "pic": "faculty_michael_brown.jpg"
+        "pic": "https://i.ibb.co/gmLvPhV/download.jpg"
       },
       "blogs":{
         "title":"Getting Started with Web Development",
@@ -98,7 +98,7 @@
         "name": "Dr. James Anderson",
         "designation": "AI Specialist",
         "description": "Dr. James Anderson is an expert in artificial intelligence and neural networks. He is passionate about educating students in the rapidly evolving field of AI and machine learning.",
-        "pic": "faculty_james_anderson.jpg"
+        "pic": "https://i.ibb.co/hF7m2CT/images.jpg"
       },
 
       "blogs":{
@@ -121,7 +121,7 @@
         "name": "Prof. Laura Martinez",
         "designation": "Cybersecurity Expert",
         "description": "Prof. Laura Martinez is a cybersecurity expert with extensive knowledge in network security and ethical hacking. She is committed to educating individuals in the field of cybersecurity and ensuring a safer digital environment.",
-        "pic": "faculty_laura_martinez.jpg"
+        "pic": "https://i.ibb.co/mJbdk9W/laura.jpg"
       },
       "blogs":{
         "title":"Getting Started with Web Development",

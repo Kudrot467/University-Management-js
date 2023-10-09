@@ -1,60 +1,48 @@
+import Aos from "aos";
+import 'aos/dist/aos.css'
+import { useEffect } from "react";
 const About = () => {
+  useEffect(()=>{
+    Aos.init();
+  },[])
   return (
     <div className="hero rounded-lg my-10">
     <div className="hero-content ">
       <div className="card flex-shrink-0 w-full shadow-2xl bg-base-100 p-5">
-    <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-      <div className="card w-96 bg-[#64A0ED] text-primary-content">
+    <div className=" grid grid-cols-1 md:grid-cols-2 gap-4">
+      <div className="card w-96 bg-[#64A0ED] text-primary-content" data-aos="fade-right">
         <div className="card-body">
-          <h2 className="card-title text-white">Card title!</h2>
-          <p>If a dog chews shoes whose shoes does he choose?</p>
+          <h2 className="card-title text-white text-3xl">Information</h2>
+          <p className="text-2xl text-white">Learning Academy</p>
           <div className="card-actions justify-end">
-            <button className="btn">View</button>
+            <button className="btn hover:bg-[#64A0ED] ">View</button>
           </div>
         </div>
       </div>
-      <div className="card w-96 bg-[#EDBC4B] text-primary-content">
+      <div className="card w-96 bg-[#EC9141] text-primary-content" data-aos="fade-left">
         <div className="card-body">
-          <h2 className="card-title">Card title!</h2>
-          <p>If a dog chews shoes whose shoes does he choose?</p>
+          <h2  className="card-title text-white text-3xl">Why study at Learning Academy?</h2>
+          <p className="text-2xl text-white">Learning Academy</p>
           <div className="card-actions justify-end">
-            <button className="btn">View</button>
+            <button className="btn hover:bg-[#64A0ED] ">View</button>
           </div>
         </div>
       </div>
-      <div className="card w-96 bg-[#EC9141] text-primary-content">
+      <div className="card w-96 bg-[#BE44A0] text-primary-content" data-aos="fade-up">
         <div className="card-body">
-          <h2 className="card-title">Card title!</h2>
-          <p>If a dog chews shoes whose shoes does he choose?</p>
+          <h2  className="card-title text-white text-3xl">Resources</h2>
+          <p className="text-2xl text-white">Learning Academy</p>
           <div className="card-actions justify-end">
-            <button className="btn">View</button>
+            <button className="btn hover:bg-[#64A0ED] ">View</button>
           </div>
         </div>
       </div>
-      <div className="card w-96 bg-[#BE44A0] text-primary-content">
+      <div className="card w-96 bg-[#973FC9] text-primary-content" data-aos="fade-down">
         <div className="card-body">
-          <h2 className="card-title">Card title!</h2>
-          <p>If a dog chews shoes whose shoes does he choose?</p>
+          <h2  className="card-title text-white text-3xl">Career-Opportunity</h2>
+          <p className="text-2xl text-white">Learning Academy</p>
           <div className="card-actions justify-end">
-            <button className="btn">View</button>
-          </div>
-        </div>
-      </div>
-      <div className="card w-96 bg-[#973FC9] text-primary-content">
-        <div className="card-body">
-          <h2 className="card-title">Card title!</h2>
-          <p>If a dog chews shoes whose shoes does he choose?</p>
-          <div className="card-actions justify-end">
-            <button className="btn">View</button>
-          </div>
-        </div>
-      </div>
-      <div className="card w-96 bg-[#2FAFBE] text-primary-content">
-        <div className="card-body">
-          <h2 className="card-title">Card title!</h2>
-          <p>If a dog chews shoes whose shoes does he choose?</p>
-          <div className="card-actions justify-end">
-            <button className="btn">View</button>
+            <button className="btn hover:bg-[#64A0ED] ">View</button>
           </div>
         </div>
       </div>

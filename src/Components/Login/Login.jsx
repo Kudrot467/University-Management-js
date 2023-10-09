@@ -33,11 +33,12 @@ const Login = () => {
         );
       })
       .catch((error) => {
-        const errorCode = error.code;
-        if (errorCode === "auth/wrong-password") {
+        const errorCode = error.message;
+        console.log(errorCode);
+        if (errorCode === "auth/invalid-password") {
           setLogError("Password is incorrect.");
           return;
-        } else if (errorCode === "auth/user-not-found") {
+        } else if (errorCode === "auth/invalid-email") {
           setLogError("User with this email does not exist.");
           return;
         }

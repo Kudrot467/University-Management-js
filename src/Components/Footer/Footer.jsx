@@ -33,7 +33,7 @@ const Footer = () => {
         </nav> 
         <nav>
           <header className="footer-title text-xl">Ouery or Confusion</header> 
-          <a className="link link-hover hover:text-[#48A5EE] text-lg">About us</a> 
+          <Link to="/about" className="link link-hover hover:text-[#48A5EE] text-lg">About us</Link> 
           <a className="link link-hover hover:text-[#48A5EE] text-lg">Contact</a> 
         </nav> 
         <nav>

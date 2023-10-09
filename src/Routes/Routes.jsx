@@ -11,6 +11,7 @@ import Courses from "../Components/Courses/Courses";
 import Blogs from "../Components/Blogs/Blogs";
 import PrivateRoute from "./PrivateRoutes/PrivateRoute";
 import EventDetails from "../Components/EventDetails/EventDetails";
+import Regulations from "../Components/Regulations/Regulations";
 
 const router=createBrowserRouter([
     {
@@ -60,6 +61,10 @@ const router=createBrowserRouter([
             path:'/course/:id',
             element:<PrivateRoute><Blogs></Blogs></PrivateRoute>,
             loader:() => fetch('/courses.json')
+        },
+        {
+            path:'/regulations',
+            element:<PrivateRoute><Regulations></Regulations></PrivateRoute>
         }
       ]
     },
