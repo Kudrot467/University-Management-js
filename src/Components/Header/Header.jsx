@@ -26,6 +26,9 @@ const Header = () => {
           alt=""
         />
         <div className="flex flex-col md:flex-row">
+          <p className="text-xl mr-2 text-[#4E9BD8]">{
+            user?.displayName
+          }</p>
             {
                 user ? <button onClick={handleSignOut}  className="text-xl font-medium  mr-1 text-[#0070C7] hover:text-[#4E9BD8]">Sign out</button> :  <Link to="/login" className="flex items-center ">
                 <FaUser className="text-[#0070C7] mr-1 hover:text-[#4E9BD8]"></FaUser>
