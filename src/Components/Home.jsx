@@ -6,6 +6,7 @@ import 'aos/dist/aos.css';
 import { useEffect } from "react";
 import Testimonials from "./Testimonials/Testimonials";
 import Facts from "./Facts/Facts";
+import { Helmet } from "react-helmet-async";
 const Home = () => {
   const eventsData = useLoaderData();
 
@@ -15,6 +16,9 @@ const Home = () => {
 
   return (
     <div>
+      <Helmet>
+        <title>Event-Management | Home</title>
+      </Helmet>
       <Banner></Banner>
       <div className="max-w-7xl mx-auto">
         <h2 className="text-4xl font-semibold text-[#4E9BD8]">Events</h2>

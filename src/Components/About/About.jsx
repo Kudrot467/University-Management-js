@@ -1,12 +1,16 @@
 import Aos from "aos";
 import 'aos/dist/aos.css'
 import { useEffect } from "react";
+import { Helmet } from "react-helmet-async";
 const About = () => {
   useEffect(()=>{
     Aos.init();
   },[])
   return (
     <div className="hero rounded-lg my-10">
+      <Helmet>
+        <title>Event-management | About</title>
+      </Helmet>
     <div className="hero-content ">
       <div className="card flex-shrink-0 w-full shadow-2xl bg-base-100 p-5">
     <div className=" grid grid-cols-1 md:grid-cols-2 gap-4">

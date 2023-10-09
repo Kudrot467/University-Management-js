@@ -4,6 +4,7 @@ import { AuthContext } from "../../providers/AuthProvider";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { FaGoogle } from "react-icons/fa";
+import { Helmet } from "react-helmet-async";
 
 const Login = () => {
   const { signIn, googleSignIn } = useContext(AuthContext);
@@ -39,6 +40,9 @@ const Login = () => {
   };
   return (
     <div className="hero min-h-screen bg-[#48A5EE]">
+      <Helmet>
+        <title>Event-management | Login </title>
+      </Helmet>
       <div className="hero-content md:w-3/4 lg:w-1/2 flex-col">
         <div className="card flex-shrink-0 w-full md:w-3/4 lg:w-1/2 shadow-2xl bg-base-100">
           <form onSubmit={handleLogin} className="card-body">

@@ -1,6 +1,12 @@
+import { Helmet } from "react-helmet-async";
+
 const Admission = () => {
   return (
+
     <div className="hero  bg-base-200 max-w-6xl mx-auto rounded-lg my-10">
+      <Helmet>
+        <title>Event-Management | Admission</title>
+      </Helmet>
       <div className="hero-content  lg:w-full">
         <div className="card flex-shrink-0 w-full shadow-2xl bg-base-100 p-0 md:p-10">
           <div className="overflow-x-auto ">

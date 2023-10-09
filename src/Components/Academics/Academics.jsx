@@ -1,8 +1,12 @@
+import { Helmet } from "react-helmet-async";
 import { Link } from "react-router-dom";
 
 const Academics = () => {
   return (
     <div className=" max-w-6xl mx-auto p-20 grid grid-cols-1 md:grid-cols-2 ">
+      <Helmet>
+        <title>Event-management | Academics</title>
+      </Helmet>
       <div className="card w-96 glass">
         <figure>
           <img

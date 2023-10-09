@@ -1,6 +1,12 @@
+import { Helmet } from "react-helmet-async";
+
 const Contact = () => {
     return (
         <div className="max-w-7xl mx-auto my-10">
+            <Helmet>
+                <title>Event-management | contact-us
+                </title>
+            </Helmet>
                 <legend className="text-4xl text-[#4E9BD8] underline"> Contact Us</legend>
               <table>
                 <tr>
